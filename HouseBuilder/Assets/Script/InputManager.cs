@@ -5,7 +5,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class InputManager : MonoBehaviour
 {
     [SerializeField]
-    private XRController rightController; // Reference to the VR controller
+    private GameObject rightController; // Reference to the VR controller
 
     [SerializeField]
     private LayerMask placementLayerMask;
